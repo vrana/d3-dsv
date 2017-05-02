@@ -207,10 +207,6 @@ var string = d3.csvFormatRows([[
 })));
 ```
 
-### Content Security Policy
-
-If a [content security policy](http://www.w3.org/TR/CSP/) is in place, note that [*dsv*.parse](#dsv_parse) requires `unsafe-eval` in the `script-src` directive, due to the (safe) use of dynamic code generation for fast parsing. (See [source](https://github.com/d3/d3-dsv/blob/master/src/dsv.js).) Alternatively, use [*dsv*.parseRows](#dsv_parseRows).
-
 ## Command Line Reference
 
 ### dsv2dsv
